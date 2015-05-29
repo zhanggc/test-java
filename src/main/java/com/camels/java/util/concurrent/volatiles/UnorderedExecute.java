@@ -1,7 +1,7 @@
 package com.camels.java.util.concurrent.volatiles;
 
 
-import com.camels.java.util.concurrent.pools.ThreadPool;
+import com.camels.java.util.concurrent.pools.simpler.ThreadPool;
 
 import java.util.Hashtable;
 import java.util.Map;

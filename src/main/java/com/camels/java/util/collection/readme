@@ -1,0 +1,9 @@
+Collection 是一个集合根接口，代表着一组元素；
+
+基本方法：
+
+boolean add(E e);
+
+boolean remove(Object o);
+
+Iterator<E> iterator();

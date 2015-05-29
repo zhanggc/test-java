@@ -6,7 +6,7 @@ import java.util.logging.Logger;
  * Created by zhanggc on 2014/8/8.
  */
 public class EqualVarExit {
-    private static boolean isExist;
+    private static volatile boolean isExist;
     private static long count;
     private static long max;
 
@@ -26,7 +26,7 @@ public class EqualVarExit {
                         System.out.println(count);
                     }
                     count = 0;
-                    if(System.currentTimeMillis()-start>120000){
+                    if(System.currentTimeMillis()-start>12000){
                         Logger.getAnonymousLogger().info("Max:"+max);
                         System.exit(0);
                     }

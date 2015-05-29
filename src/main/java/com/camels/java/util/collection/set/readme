@@ -1,0 +1,9 @@
+Set 属于 一个集合，集合里面不能存在重复值（s1 equals(s2)）,以及仅存在一个null值;
+
+基本方法：
+
+boolean add(E e);
+
+boolean remove(Object o);
+
+Iterator<E> iterator();

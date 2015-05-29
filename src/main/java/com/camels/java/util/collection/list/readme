@@ -1,0 +1,13 @@
+List 属于一个有序集合(经常用作序列)，通过索引进行存取；List 允许多个重复元素；
+
+基本方法：
+
+void add(int index, E element);
+
+E get(int index);
+
+E set(int index, E element);
+
+E remove(int index);
+
+Iterator<E> iterator();

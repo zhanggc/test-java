@@ -1,0 +1,15 @@
+Queue 属于一个集合，除了 {@link java.util.Collection} 基本操作外，还包括拥有对元素优先处理顺序；
+
+基本方法：
+
+boolean add(E e);
+
+boolean offer(E e);
+
+E remove();
+
+//return header and delete
+E poll();
+
+//return header and do not delete
+E peek();

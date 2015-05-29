@@ -1,6 +1,7 @@
 package com.camels.java.util.concurrent.synchronizeds;
 
 /**
+ * @Todo {@code synchronized} 基本使用
  * Created by zhanggc on 2014/9/6.
  */
 public class Synchronized {

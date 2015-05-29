@@ -1,0 +1,11 @@
+Stack 是一个first-in-last-out 集合，继承Vector;
+
+基本方法：
+
+//return top item and not delete
+E pop()
+
+//return top item and delete
+E peek()
+
+E push(E item)
